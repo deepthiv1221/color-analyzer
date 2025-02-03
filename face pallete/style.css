@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#test-section {
+    margin-top: 50px;
+    position: relative;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+video, canvas {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#hands-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.hand {
+    width: 50px;
+    height: 100px;
+    background-color: #f1c6b3;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.color-palettes {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+}
+
+.palette {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#left-hand {
+    transform: rotate(45deg);
+}
+
+#right-hand {
+    transform: rotate(-45deg);
+}
